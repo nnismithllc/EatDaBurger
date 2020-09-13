@@ -7,6 +7,6 @@ CREATE TABLE burger
 (
 	id int NOT NULL AUTO_INCREMENT,
 	name varchar(255) NOT NULL,
-	eat BOOLEAN DEFAULT false,
+	devour BOOLEAN DEFAULT false,
 	PRIMARY KEY (id)
 );
