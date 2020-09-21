@@ -1,16 +1,16 @@
 <h1>BURGER ME BABY!</h1>
 
-<h2>Burgers that Brings Inner Peace!</h2>
+<h2>Burger Menu</h2>
 
 <ul>
   {{#each burgers}}
-    {{#unless devour}}
+    {{#unless devours}}
       {{> burgers/burger-block devour=true}}
     {{/unless}}
   {{/each}}
 </ul>
 
-<h2> BURGERS WITH PIZZAZZ!</h2>
+<h2> Burgers With Pizazz!</h2>
 
 <ul>
   {{#each burgers}}
@@ -29,9 +29,9 @@
   </div>
 
   <div class="form-group">
-    <label for="devour">Devour?</label><br>
-    <input type="radio" name="devour" value="1" checked> Devoured!<br>
-    <input type="radio" name="devour" value="0"> Try Me!
+    <label for="devour">Order?</label><br>
+    <input type="radio" name="devours" value="1" checked> Add!<br>
+    <input type="radio" name="devours" value="0"> Ordered!
   </div>
 
   <button type="submit">Add Burger</button>
