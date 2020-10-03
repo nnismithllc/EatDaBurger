@@ -1,11 +1,31 @@
+/* Body Image and Layout Tags */
+body, html {
+  height: 100%;
+  background-image: url("/public/images/burgers.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: orangered;
+  background-color: rgb(107, 99, 99);
+  align-items: center;
+  align-content: center;
+  text-align: center ;
+  /* content: url("https://www.pexels.com/photo/advertisement-advertising-architecture-background-617230/"); */
+}
+
+/* List Color */
 li {
     padding: 5px;
-    margin: 5px;
-    background: #faebd7;
+    /* margin: 5px; */
+    margin-left: 100px;
+    margin-right: 100px;
+    background: black;
+    block-size: 50px;
   }
   
   .label {
     font-weight: bold;
+    text-align: center;
   }
   
   .create-update-form {
@@ -16,4 +36,12 @@ li {
   
   .form-group {
     margin-bottom: 5px;
+  }
+  
+  h1 {
+   color: black;
+
+  }
+  h2 {
+    color:rgb(207, 189, 23)
   }

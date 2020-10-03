@@ -1,9 +1,8 @@
+{{!-- Burger List Layout in Handlebars --}}
 <li>
 	{{name}}
-
 	<button class="change-devour" data-id="{{id}}" data-newDevour="{{devour}}">
 		{{#if devour}} Order Again {{else}} Devour {{/if}}
 	</button>
-
 	<button class="delete-burger" data-id="{{this.id}}">DELETE!</button>
 </li>
