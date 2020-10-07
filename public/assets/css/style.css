@@ -1,7 +1,7 @@
 /* Body Image and Layout Tags */
 body, html {
   height: 100%;
-  background-image: url("/public/images/burgers.jpg");
+  background-image: url("/images/burgers.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
