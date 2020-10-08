@@ -1,7 +1,7 @@
 /* Body Image and Layout Tags */
 body, html {
   height: 100%;
-  background-image: url("/images/burgers.jpg");
+  background-image: url("/images/burger1.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -19,7 +19,7 @@ li {
     /* margin: 5px; */
     margin-left: 100px;
     margin-right: 100px;
-    background: black;
+    background: rgb(24, 17, 17);
     block-size: 50px;
   }
   
@@ -39,9 +39,19 @@ li {
   }
   
   h1 {
-   color: black;
+   color:rgb(0, 0, 0);
 
   }
+
   h2 {
-    color:rgb(207, 189, 23)
+    color:rgb(255, 238, 1);
+  }
+
+  .one {
+    color: rgb(0, 0, 0);
+    background-color: rgb(67, 197, 95);
+  }
+  .bname {
+    color: orangered;
+    background: rgb(24, 17, 17);
   }
